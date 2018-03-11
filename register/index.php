@@ -3,7 +3,6 @@
 //
 session_start();
 $pdo = new PDO('mysql:host=localhost;dbname=tododo', "mysql", "mysql");
-
 if(isset($_POST['login'])){
 	$login = $_POST['login'];
 	$password = $_POST['pass'];
